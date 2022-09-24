@@ -12,12 +12,19 @@
 }
 
 body{
-    background-image: url(/images/gde.jpg);
+    background-image: url(../images/Barbados_beach.jpg);
     background-size: cover;
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
     flex-wrap: wrap;
+}
+.Linea{
+  color:rgb(44, 5, 48)
+}
+
+.centroTexto{
+  color: white;
 }
 
 .layout{
@@ -100,7 +107,7 @@ main{
 footer{
   width: 100vw;
   text-align: center;
-  background-color: antiquewhite;
+  background-color: rgb(113, 182, 247);
 }
 
 .logosRedSocial{
@@ -122,7 +129,7 @@ footer{
 
 h2, .h2{
     text-align: center;
-    color: rgb(167, 9, 167);
+    color: greenyellow;
 }
 
 .HabitacionesImages{
@@ -153,8 +160,10 @@ h2, .h2{
 
 .card{
   margin: 2%;
-  box-shadow: #9599E2;
+  box-shadow: #0c0d1a;
+  background-color: transparent;
 }
+
 
 .imagesHab1 {
   position:relative;
