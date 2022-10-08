@@ -1,0 +1,14 @@
+body {
+	background-image: url(../images/Barbados_beach.jpg);
+	background-size: cover;
+	display: grid;
+	min-height: 100vh;
+	grid-template-rows: auto 1fr auto;
+	flex-wrap: wrap;
+	.Linea {
+		color: rgb(44, 5, 48);
+	}
+	.centroTexto {
+		color: white;
+	}
+}

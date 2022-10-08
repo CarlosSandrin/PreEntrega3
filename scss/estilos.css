@@ -1,10 +1,12 @@
 @charset "UTF-8";
+/*----------------inicio---------------- */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Lucida Sans', sans-serif;
-  font-size: 20px; }
+  font-family: "Lucida Sans", sans-serif;
+  font-size: 20px;
+}
 
 body {
   background-image: url(../images/Barbados_beach.jpg);
@@ -12,16 +14,21 @@ body {
   display: grid;
   min-height: 100vh;
   grid-template-rows: auto 1fr auto;
-  flex-wrap: wrap; }
-  body .Linea {
-    color: #2c0530; }
-  body .centroTexto {
-    color: white; }
+  flex-wrap: wrap;
+}
 
-/*----------------inicio---------------- */
+body .Linea {
+  color: rgb(44, 5, 48);
+}
+
+body .centroTexto {
+  color: white;
+}
+
 .layout {
   background-color: rgba(0, 0, 0, 0.2);
-  min-height: 100vh; }
+  min-height: 100vh;
+}
 
 header {
   background-color: transparent;
@@ -29,83 +36,94 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 60px;
-  padding: 5px; }
+  padding: 5px;
+}
 
 .logoLogos {
   height: 55px;
   width: auto;
-  transition: all 0.3s; }
+  transition: all 0.3s;
+}
 
 .logoLogos {
   cursor: pointer;
-  margin-left: auto; }
+  margin-left: auto;
+}
 
 .logoLogos:hover {
-  transform: scale(1.2); }
+  transform: scale(1.2);
+}
 
 header .navLinks {
-  list-style: none; }
-  header .navLinks li {
-    display: inline-block;
-    padding: 0 20px; }
-    header .navLinks li a:hover {
-      color: rgba(216, 16, 243, 0.904); }
-  header .navLinks:hover {
-    transform: scale 1.1; }
-  header .navLinks a {
-    font-size: 700;
-    color: beige;
-    text-decoration: none; }
-
-.ubicacion {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; }
+  list-style: none;
+}
+header .navLinks li {
+  display: inline-block;
+  padding: 0 20px;
+}
+header .navLinks li a:hover {
+  color: rgba(216, 16, 243, 0.904);
+}
+header .navLinks:hover {
+  transform: scale 1.1;
+}
+header .navLinks a {
+  font-size: 700;
+  color: beige;
+  text-decoration: none;
+}
 
 /*----------------------MAIN----------------*/
 main {
-  padding: 0 15vw; }
-  main .imgPres {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px; }
-  main .calidadTuristica {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px; }
+  padding: 0 15vw;
+}
+main .imgPres {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main .calidadTuristica {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 /*------------------FOOTER-----------------*/
 footer {
   width: 100vw;
   text-align: center;
-  background-color: #71b6f7; }
-  footer .logosRedSocial {
-    display: flex;
-    justify-content: center; }
-    footer .logosRedSocial img {
-      height: 40px;
-      margin: 0;
-      padding: 5px;
-      border-radius: 50%;
-      box-shadow: #24303c;
-      transform: scale 1.2; }
+  background-color: rgb(113, 182, 247);
+}
+footer .logosRedSocial {
+  display: flex;
+  justify-content: center;
+}
+footer .logosRedSocial img {
+  height: 40px;
+  margin: 0;
+  padding: 5px;
+  border-radius: 50%;
+  box-shadow: #24303c;
+  transform: scale 1.2;
+}
 
 /*-----------------------Habitaciones----------------*/
 h1, .h1 {
   text-align: center;
-  color: greenyellow; }
+  color: greenyellow;
+}
 
 main .HabitacionesImages {
   display: grid;
   min-height: 100vh;
-  grid-template-rows: auto 1fr auto; }
-
+  grid-template-rows: auto 1fr auto;
+}
 main .Habitaciones_todas {
   position: relative;
   display: flex;
@@ -113,39 +131,40 @@ main .Habitaciones_todas {
   justify-content: center;
   align-items: center;
   margin: 20px 40px;
-  padding: 20px; }
-
+  padding: 20px;
+}
 main .imagesHab {
   height: auto;
   width: auto;
   max-height: 200px;
   max-width: 300px;
-  border: 2px solid; }
-
+  border: 2px solid;
+}
 main .card {
   margin: 2%;
   box-shadow: #0c0d1a;
-  background-color: transparent; }
-
+  background-color: transparent;
+}
 main .imagesHab1 {
   position: relative;
   top: auto;
-  left: auto; }
-
+  left: auto;
+}
 main .imagesHab2 {
   position: relative;
   top: auto;
-  left: auto; }
-
+  left: auto;
+}
 main .imagesHab3 {
   position: relative;
   top: auto;
-  left: auto; }
-
+  left: auto;
+}
 main .imagesHab4 {
   position: relative;
   top: auto;
-  left: auto; }
+  left: auto;
+}
 
 /*---------------------SERVICIOS--------------------------*/
 .listaServicios .lista_servicios {
@@ -155,18 +174,19 @@ main .imagesHab4 {
   display: flex;
   flex-wrap: wrap;
   left: 20px;
-  top: auto; }
+  top: auto;
+}
 
 /*--------------------------------RESERVA------------------------------*/
-.cuadroReserva {
-  position: flex;
-  flex-direction: column;
+main .date, .dateDos {
+  position: relative;
   top: auto;
   left: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 /* Formulario de contacto */
 #formulario {
@@ -176,7 +196,8 @@ main .imagesHab4 {
   padding: 30px;
   margin: auto;
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 main .container .formulario .datos {
   margin-top: 20px;
@@ -185,19 +206,23 @@ main .container .formulario .datos {
   width: 100%;
   padding: 10px;
   border-radius: 4px;
-  border: 1px solid #1f53c5; }
+  border: 1px solid #1f53c5;
+}
 
 main .container .formulario p {
   height: 40px;
   text-align: center;
   font-size: 18px;
-  margin-top: 2%; }
+  margin-top: 2%;
+}
 
 main .container .formulario .imagen {
-  position: flex; }
+  position: flex;
+}
 
 main .container .formulario .imagen input {
-  background-color: #1f53c5; }
+  background-color: #1f53c5;
+}
 
 .boton_enviar {
   width: 100%;
@@ -207,7 +232,8 @@ main .container .formulario .imagen input {
   padding: 12px;
   margin: 16px 0;
   font-size: 16px;
-  border-radius: 4px; }
+  border-radius: 4px;
+}
 
 /*-----------------------------------------------*/
 /* Botón WhatsApp */
@@ -220,25 +246,51 @@ main .container .formulario .imagen input {
   bottom: 3em;
   right: 1em;
   display: flex;
-  align-items: center; }
+  align-items: center;
+}
+
+@-webkit-keyframes moverBoton {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1.1, 1.1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
 
 @keyframes moverBoton {
   0% {
-    transform: scale(1, 1); }
+    transform: scale(1, 1);
+  }
   25% {
-    transform: scale(1.1, 1.1); }
+    transform: scale(1.1, 1.1);
+  }
   50% {
-    transform: scale(1.2, 1.2); }
+    transform: scale(1.2, 1.2);
+  }
   100% {
-    transform: scale(1, 1); } }
-
+    transform: scale(1, 1);
+  }
+}
 .wpp-fixed:hover {
   /* transform: scale(1.2, 1.2); */
-  animation-name: moverBoton;
-  animation-duration: 3s;
-  animation-delay: 0.5;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite; }
+  -webkit-animation-name: moverBoton;
+          animation-name: moverBoton;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-delay: 0.5;
+          animation-delay: 0.5;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
 
 /*-----------------------------------------------*/
 main .container {
@@ -248,8 +300,10 @@ main .container {
   text-align: justify;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+}
 
 /* carousel */
 .carousel {
-  max-width: 1000px; }
+  max-width: 1000px;
+}/*# sourceMappingURL=estilos.css.map */
